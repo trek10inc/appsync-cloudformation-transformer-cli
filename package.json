@@ -1,0 +1,38 @@
+{
+  "name": "appsync-cloudformation-transformer-cli",
+  "version": "1.0.0",
+  "description": "A standalone CLI GraphQL SDL for AppSync -> CloudFormation",
+  "main": "src/index.js",
+  "dependencies": {
+    "fs-extra": "^7.0.0",
+    "graphql-appsync-transformer": "^1.0.19",
+    "graphql-auth-transformer": "^1.0.19",
+    "graphql-connection-transformer": "^1.0.19",
+    "graphql-dynamodb-transformer": "^1.0.19",
+    "graphql-elasticsearch-transformer": "^1.0.19",
+    "graphql-transformer-core": "^1.0.19"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "act": "src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/trek10inc/appsync-cloudformation-transformer-cli.git"
+  },
+  "keywords": [
+    "appsync",
+    "cloudformation",
+    "aws",
+    "cli"
+  ],
+  "author": "Jared L. Short",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/trek10inc/appsync-cloudformation-transformer-cli/issues"
+  },
+  "homepage": "https://github.com/trek10inc/appsync-cloudformation-transformer-cli#readme"
+}
