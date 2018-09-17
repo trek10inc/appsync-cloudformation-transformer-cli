@@ -8,9 +8,11 @@
     "graphql-appsync-transformer": "^1.0.19",
     "graphql-auth-transformer": "^1.0.19",
     "graphql-connection-transformer": "^1.0.19",
+    "graphql-default-value-transformer": "^1.0.0",
     "graphql-dynamodb-transformer": "^1.0.19",
     "graphql-elasticsearch-transformer": "^1.0.19",
-    "graphql-transformer-core": "^1.0.19"
+    "graphql-transformer-core": "^1.0.19",
+    "graphql-versioned-transformer": "^1.0.19"
   },
   "devDependencies": {},
   "scripts": {
